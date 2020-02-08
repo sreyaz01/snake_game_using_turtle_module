@@ -122,6 +122,9 @@ while True:
         # Reset the Score
         score = 0
 
+        # Reset delay
+        delay = 0.1
+
         # Update the Score
         pen.clear()
         pen.write('Score: {}  High Score: {}'.format(score, high_score),
@@ -186,6 +189,9 @@ while True:
 
             # Reset the Score
             score = 0
+
+            # Reset delay
+            delay = 0.1
 
             # Update the Score
             pen.clear()
